@@ -1,0 +1,232 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  width: 360px;
+}
+
+.popup-container {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+textarea, select, input[type="text"] {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.form-row {
+  margin: 6px 0;
+}
+
+.folder {
+  margin-top: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+}
+
+.folder summary {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.tweet-box {
+  margin: 8px 0;
+  padding: 10px;
+  background: #eef2f7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tweet-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.copy-btn {
+  align-self: flex-end;
+  padding: 6px 10px;
+  border: none;
+  background: #10b981;
+  color: white;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+body.dark {
+  background: #1e1e2e;
+  color: white;
+}
+
+body.dark textarea,
+body.dark select,
+body.dark input[type="text"] {
+  background: #2a2a3b;
+  color: #f4f4f4;
+  border: 1px solid #555;
+}
+
+body.dark .tweet-box {
+  background: #2e3542;
+}
+
+body.dark .copy-btn {
+  background: #06b6d4;
+}
+
+body.dark .folder {
+  background: #242838;
+  border-color: #444;
+}
+textarea, select, input[type="text"], input[type="number"] {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+}
+
+.folder-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.folder-actions input {
+  flex: 1;
+}
+
+.folder-actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.folder-actions button:hover {
+  background-color: #4338ca;
+}
+textarea, select, input[type="text"], input[type="number"] {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+}
+
+.folder-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.folder-actions input {
+  flex: 1 1 100%;
+}
+
+.folder-actions button {
+  flex: 1;
+  min-width: 32px;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.folder-actions button:hover {
+  background-color: #4338ca;
+}textarea, select, input[type="text"], input[type="number"] {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+}
+
+.folder-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.folder-actions input {
+  flex: 1 1 100%;
+}
+
+.folder-actions button {
+  flex: 1;
+  min-width: 32px;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.folder-actions button:hover {
+  background-color: #4338ca;
+}

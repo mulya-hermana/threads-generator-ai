@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="header">
+      <h1>Threads Generator AI</h1>
+    </header>
+
+    <textarea id="topic" placeholder="Masukkan topik thread..."></textarea>
+
+    <label for="style">Gaya Penulisan:</label>
+    <select id="style">
+      <option value="santai">Santai</option>
+      <option value="profesional">Profesional</option>
+      <option value="lucu">Lucu</option>
+      <option value="ringkas">Ringkas</option>
+      <option value="provokatif">Provokatif</option>
+      <option value="motivasional">Motivasi</option>
+      <option value="informatif">Informatif</option>
+      <option value="cerita">Ceritakan sebagai narasi</option>
+      <option value="edukatif">Edukasi langkah-langkah</option>
+    </select>
+
+    <label for="charlimit">Maksimum karakter per bagian (opsional):</label>
+    <input type="number" id="charlimit" placeholder="Contoh: 300" />
+
+    <label for="folderSelect">Pilih Folder:</label>
+    <select id="folderSelect"></select>
+    <div class="folder-actions">
+      <input type="text" id="newFolder" placeholder="Tambah folder baru...">
+      <button id="addFolder">+</button>
+      <button id="deleteFolder">-</button>
+      <button id="resetFolder">x</button>
+    </div>
+
+    <input type="text" id="apikey" placeholder="Masukkan API Key Gemini atau OpenAI..." />
+    <label><input type="checkbox" id="saveKey"> Simpan API Key</label>
+
+    <div class="form-row">
+      <label><input type="checkbox" id="themeToggle" /> Dark Mode</label>
+    </div>
+
+    <button id="generate">Generate Thread</button>
+
+    <div id="folders" class="folders-container"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

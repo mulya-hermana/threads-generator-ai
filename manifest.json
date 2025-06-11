@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Threads Generator AI",
+  "version": "3.1",
+  "description": "Generate, organize and copy Twitter-style threads easily.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://www.threads.net/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  }
+}
